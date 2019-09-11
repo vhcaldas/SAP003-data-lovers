@@ -33,7 +33,7 @@ A maioria do nosso público-alvo são visitantes que desejam filtrar índices de
 
 A partir do banco de dados em referência, nós consideramos as necessidades dos seguintes usuários:
 
-![André](src/Images/estudante.jpeg)
+![André](src/Images/15anos.jpg)
 * Nome: André.
 * Idade: 15 anos.
 * Biografia: Estudante do ensino médio, _nerd_.
