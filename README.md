@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1. Resumo do Projeto] (#1-resumo-do-projeto)
+* [1. Resumo do Projeto](#1-resumo-do-projeto)
 * [2. Banco de Dados Escolhido](#2-banco-de-dados-escolhido)
 * [3. Usuários](#3-usuários)
 * [4. História de Usuários](#4-histórias-de-usuários)
