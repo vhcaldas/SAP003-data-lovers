@@ -29,11 +29,9 @@ O banco de dados escolhido foi o que se segue:
 
 ## 3. Usuários.
 
-A maioria do nosso público-alvo são visitantes que desejam filtrar índices de mortalidade de transportes urbanos desde 1960 com atualização de dados até o ano 2016, para fins de pesquisa ou até mesmo para melhorar projetos de empresas de todos os tipos de transporte urbanos.
-
 A partir do banco de dados em referência, nós consideramos as necessidades dos seguintes usuários:
 
-![André](src/Images/estudante.jpeg)
+![André](src/Images/15anos.jpg)
 * Nome: André.
 * Idade: 15 anos.
 * Biografia: Estudante do ensino médio, _nerd_.
@@ -57,17 +55,17 @@ A partir do banco de dados em referência, nós consideramos as necessidades dos
 
 ## 4. Histórias de Usuários
 
-Diante da história das personas aqui desenhadas, propomos as seguintes histórias de usuários:
+A maioria do nosso público-alvo são visitantes que desejam filtrar índices de mortalidade de transportes urbanos desde 1960 com atualização de dados até o ano 2016, para fins de pesquisa ou até mesmo para melhorar projetos de empresas de todos os tipos de transporte urbanos.
 
-* Como **visitante**, desejo **filtrar índices de mortalidade de transportes urbanos por ano** para fins de pesquisa.
-* Como **visitante**, desejo **filtrar comparar dados de um meio de transporte com outro** para melhorar o meu negócio.
+Diante da história das personas aqui desenhadas, propomos as seguintes histórias de usuários:
 
 ## 5. Desenho da Interface
 
-* Este projeto será executado em duplas.
-* Este projeto será entregue através do GitHub e a interface deve ser publicada
-  no [GitHub Pages](https://pages.github.com/).
-* Tempo para completá-lo: três semanas.
+Essas foram as interfaces pensadas:
+
+* **1ª Interface**
+
+![Interface1](src/Images/1ª&#32;interface.jpeg)
 
 ## 5. Critérios mínimos de aceitação do projeto
 
