@@ -1,8 +1,8 @@
 // esta é uma função de exemplo
 // veja como agregamos a função ao objeto global window
-const example = () => {
+/*const example = () => {
   return "example";
-};*/
+};
 
 window.main {
   localizarTransporte,
@@ -11,7 +11,7 @@ window.main {
 const mainData = INJURIES;
 console.log(mainData);
 
-
+const mainData = INJURIES;
 for (let motorcycle of INJURIES) {
   for (let moto in motorcycle){
     // console.log(typeof moto);
@@ -19,6 +19,6 @@ for (let motorcycle of INJURIES) {
   }
   document.write(motorcycle.Total_Injured_Persons_Motorcyclists)
 
-}
+}*/
 
 
