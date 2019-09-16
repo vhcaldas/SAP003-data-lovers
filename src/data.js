@@ -2,11 +2,15 @@
 // veja como agregamos a função ao objeto global window
 const example = () => {
   return "example";
-};
+};*/
 
-window.example = example;
+window.main {
+  localizarTransporte,
+}
+
 const mainData = INJURIES;
 console.log(mainData);
+
 
 for (let motorcycle of INJURIES) {
   for (let moto in motorcycle){
@@ -14,7 +18,7 @@ for (let motorcycle of INJURIES) {
     console.log(motorcycle[moto])
   }
   document.write(motorcycle.Total_Injured_Persons_Motorcyclists)
-  //return document.write(Total_Injured_Persons_Motorcyclists);
+
 }
 
 

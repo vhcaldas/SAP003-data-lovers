@@ -7,3 +7,9 @@ fetch('data/injuries/injuries.json')
  document.write(data.Year);
 })
 
+document.getElementById("enviar").addEventListener("click", localizarTransporte);
+
+function localizarTransporte (cTransp, cAno) {
+  console.log(cTransp);
+  console.log(cAno);
+}

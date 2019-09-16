@@ -6,44 +6,40 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Usando Fetch</h1>
-    <div id="root"></div>
-    <form>
-        <fieldset id = "transporte"><legend>Indice de Acidente ocorrido nos ultimos anos</legend>
-        <p><label for="cTransp">Transporte:</label>
-           <select name="tTransp" id="cTransp"/>
-                 <optgroup label="Tipo de transporte">
-                      <option value="CAR">Carro</option>
-                      <option value="BUS">Onibus</option>
-                      <option value="Truck">Caminhao</option>
-                      <option value="Train">Trem</option>
-                      <option value="Metro">Metro</option>
-                      <option value="Boat">Barco</option>
-                      <option value="Airplane">Aviao</option>
-                      <option value="Byfoot">A pe</option>
-                      <option value="Surf">Surfando</option>
-                      <option value="BIKE">Bicicleta</option>
-                      <option value="Others">Outros</option>
-           </select>
-           
-           <label for="cAno">Ano:</label>
-           <select name="tAno" id="cAno"/>
-                 <optgroup label="Ano">
-                      <option value="2016">2016</option>
-                      <option value="2015">2015</option>
-                      <option value="1988">1988</option>
-                      <option value="1976">1976</option>
-                      <option value="1960">1960</option>
-           </select>
-           <button type="button">Calcular</button>
-        </fieldset>
-      </form>
-    <script src="data/injuries/injuries.js"></script>
-        <script src="data.js"></script>
-    <section id="selection-boxes">
+    <section id="caixas-de-selecao">
+      <form>
+          <fieldset id = "transporte"><legend>Indice de Acidente ocorrido nos ultimos anos</legend>
+            <p><label for="cTransp">Transporte:</label></p>
+              <select name="tTransp" id="cTransp"/>
+                <optgroup label="Tipo de transporte">
+                  <option value="CAR">Carro</option>
+                  <option value="BUS">Onibus</option>
+                  <option value="Truck">Caminhao</option>
+                  <option value="Train">Trem</option>
+                  <option value="Metro">Metro</option>
+                  <option value="Boat">Barco</option>
+                  <option value="Airplane">Aviao</option>
+                  <option value="Byfoot">A pe</option>
+                  <option value="Surf">Surfando</option>
+                  <option value="BIKE">Bicicleta</option>
+                  <option value="Others">Outros</option>
+              </select>
+
+            <label for="cAno">Ano:</label>
+              <select name="tAno" id="cAno"/>
+                <optgroup label="Ano">
+                  <option value="2016">2016</option>
+                  <option value="2015">2015</option>
+                  <option value="1988">1988</option>
+                  <option value="1976">1976</option>
+                  <option value="1960">1960</option>
+              </select>
+                <button id="enviar">Calcular</button>
+          </fieldset>
+        </form>
     </section>
-    <script src="data/injuries/injuries.js"></script>
-    <script src="data.js"></script>
-    <script src="main.js"></script>
+      <script src="data/injuries/injuries.js"></script>
+      <script src="data.js"></script>
+      <script src="main.js"></script>
   </body>
 </html>
