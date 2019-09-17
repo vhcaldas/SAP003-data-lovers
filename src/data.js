@@ -8,7 +8,6 @@ window.main {
   localizarTransporte,
 }
 
-
 const mainData = INJURIES;
 for (let motorcycle of INJURIES) {
   for (let moto in motorcycle){
@@ -18,4 +17,13 @@ for (let motorcycle of INJURIES) {
 
 }*/
 
+/*fetch('/data/injuries/injuries.json')
+ .then(function(response){
+   return response.json()
+ }).then(function(data){
+ console.log(data);
+})*/
 
+/*function carregaMenuTipos () {
+  console.log(data);
+}*/

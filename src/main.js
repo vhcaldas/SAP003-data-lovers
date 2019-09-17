@@ -1,19 +1,16 @@
 const data = INJURIES;
-const filtroPrincipal = document.getElementById("cTransp");
-const mostraDados = document.getElementById("Resultado");
 
-
-fetch('/data/injuries/injuries.json')
- .then(function(response){
-   return response.json()
- }).then(function(data){
- console.log(data);
-})
-
-
-
-function localizarTransporte (cTransp, cAno) {
-  console.log(cTransp);
-  console.log(cAno);
+let recebeDados = (event) => {
+  event.preventDefault();
+  const chooseTransp = document.getElementById("cTransp").value;
+  const year = document.getElementById("cAno").value;
+  document.getElementById("Resultado").innerHTML = window.data.transportCategory(chooseTransp, year, array);
 }
 
+document.getElementById("enviar").addEventListener("click", recebeDados);
+
+/*
+const enviaFiltro = app.filterData(data, menufiltro.value);
+
+menufiltro.addEventListener("change", () => selecionados(enviaFiltro));
+*/
