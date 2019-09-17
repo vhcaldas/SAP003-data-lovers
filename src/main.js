@@ -1,5 +1,16 @@
 const data = INJURIES;
 
+
+
+
+/*fetch('/data/injuries/injuries.json')
+ .then(function(response){
+   return response.json()
+ }).then(function(data){
+ console.log(data);
+})
+
+
 let recebeDados = (event) => {
   event.preventDefault();
   const chooseTransp = document.getElementById("cTransp").value;
@@ -9,8 +20,15 @@ let recebeDados = (event) => {
 
 document.getElementById("enviar").addEventListener("click", recebeDados);
 
+function localizarTransporte (cTransp, cAno) {
+  console.log(cTransp);
+  console.log(cAno);
+}*/
+ o map para pegar os objetos , mapeia para pegar obj por obj se o year que foi selecionado for = ao year 
+
 /*
 const enviaFiltro = app.filterData(data, menufiltro.value);
 
 menufiltro.addEventListener("change", () => selecionados(enviaFiltro));
 */
+
