@@ -16,6 +16,31 @@ for (let motorcycle of INJURIES) {
   }
   document.write(motorcycle.Total_Injured_Persons_Motorcyclists)
 
-}*/
+}
+function filterData(data, condition) {
+  return data.filter(item => item.type.includes(codition));
+}
+const app = {
+  filterData
+};*/
+window.data = {
+  transport = transportCategory
+}
 
+function transportCategory(chooseTransp){
+  let selectedTransport = "";
+  console.log(chooseTransp);
+  for (let i in chooseTransp){
+    if (chooseTransp[i].checked) {
+      const transport = chooseTransp[i].value;
+      selectedTransport += myIndicators(INJURIES[ano].Year);
+      console.log( myIndicators(INJURIES[ano].Year));
+    }
+  }
+  return selectedTransport;
+}
+
+function myIndicators(transportCategory){
+  return transportCategory.map((elemento) => elemento.injuriesName);
+}
 
