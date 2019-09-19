@@ -21,7 +21,7 @@ function filterData(data, condition) {
 }
 const app = {
   filterData
-};*/
+};
 window.data = {
   transport = transportCategory
 }
