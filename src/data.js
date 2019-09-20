@@ -1,21 +1,48 @@
 // esta é uma função de exemplo
 // veja como agregamos a função ao objeto global window
-/*const example = () => {
-  return "example";
-};
+/*const exampletransportCategory = () => {
+    let: arrayResul = [];
+    for(let i of array) {
+      switch(searchType) {
+        case 'n':
+          if(i.Total_Injured_Persons_Motorcyclists.toLo)
+      }
+    }
+};*/
 
-window.main {
-  localizarTransporte,
-}
+// window.data = {
+//   localizarTransp: localizarTransp
+// }
+
+/*const filteredList = INJURIES.filter((injuries) => {
+    if(injuries.INJURIES === 'Total_Injured_Persons_Passenger_Car_Occupants')
+    return true;
+
+});
+
+filteredList.forEach((injuries) =>{
+  // console.log(injuries);
+})
+
+// console.log(filteredList);
 
 const mainData = INJURIES;
 for (let motorcycle of INJURIES) {
   for (let moto in motorcycle){
-    console.log(motorcycle[moto])
+    // console.log(motorcycle[moto])
+    
+    document.write(motorcycle.Total_Injured_Persons_Motorcyclists)
+    //document.write(motorcycle[moto])
   }
-  document.write(motorcycle.Total_Injured_Persons_Motorcyclists)
+  //document.write(motorcycle.Total_Injured_Persons_Motorcyclists)
+  //document.getElementById("msg").innerHTML = motorcycle.Total_Injured_Persons_Motorcyclists
+}
+
+/*
+}
 
 }
+
 function filterData(data, condition) {
   return data.filter(item => item.type.includes(codition));
 }
@@ -23,7 +50,7 @@ const app = {
   filterData
 };
 window.data = {
-  transport = transportCategory
+  transport: transportCategory
 }
 
 function transportCategory(chooseTransp){
@@ -54,3 +81,4 @@ function myIndicators(transportCategory){
 /*function carregaMenuTipos () {
   console.log(data);
 }*/
+
