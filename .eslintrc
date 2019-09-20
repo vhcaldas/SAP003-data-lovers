@@ -5,7 +5,11 @@
     "parserOptions": {
       "ecmaVersion": 6
     },
+<<<<<<< HEAD
       "globals": {
+=======
+    "globals": {
+>>>>>>> 7fc0d943f33a3df49b9ce0a58758d68e1fe83340
       "cipher": false
     },
     "rules": {
