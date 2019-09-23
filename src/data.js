@@ -1,14 +1,6 @@
 // esta é uma função de exemplo
 // veja como agregamos a função ao objeto global window
-/*const exampletransportCategory = () => {
-    let: arrayResul = [];
-    for(let i of array) {
-      switch(searchType) {
-        case 'n':
-          if(i.Total_Injured_Persons_Motorcyclists.toLo)
-      }
-    }
-};*/
+
 
 // window.data = {
 //   localizarTransp: localizarTransp
@@ -29,7 +21,7 @@ filteredList.forEach((injuries) =>{
 const mainData = INJURIES;
 for (let motorcycle of INJURIES) {
   for (let moto in motorcycle){
-    // console.log(motorcycle[moto])
+     console.log(motorcycle[moto])
     
     document.write(motorcycle.Total_Injured_Persons_Motorcyclists)
     //document.write(motorcycle[moto])
