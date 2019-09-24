@@ -1,29 +1,53 @@
-const data = INJURIES;
-
-let recebeDados = (event) => {
+let receiveData = (event) => {
   event.preventDefault();
   const chooseTransp = document.getElementById("cTransp").value;
-  const Year = document.getElementById("cAno").value;
+  const Year = document.getElementById("cYear").value;
+  let tela = window.searchTheCategory(chooseTransp, Year);
+  document.getElementById("lista").innerHTML = tela;
   
-  
-
-  for (let i of data){
-      if (i.Year === Year){
-        let resultado = (i[chooseTransp]);
-        document.getElementById("lista").innerHTML = `${resultado}`;
-      }
-     
-    }
-    
   }
   
-  document.getElementById("enviar").addEventListener("click", recebeDados);
-  
-  
+  document.getElementById("enviar").addEventListener("click", receiveData);
+   
  
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //document.getElementById("lista").innerHTML = `${resultado}`;
+  /*const receiveData = (event) => {
+    event.preventDefault();
+    const choosenTransp = document.getElementById("cTransp").value;
+    const year = document.getElementById("cYear").value;
+    return window.searchTheCategory(choosenTransp, year);
+  }
+  document.getElementById("send").addEventListener("click", receiveData
 
 
 /*function result()
