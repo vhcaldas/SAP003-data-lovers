@@ -1,7 +1,86 @@
-/*
+@media screen and (min-width: 320px){
+  .header{
+    font-size: 0.5em;
+  }
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  border: none;
+  outline: none;
+  font-weight: 300;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
 
-.transport {
+body {
+  background-color: #d6d7d9;
+}
+
+a {
+  text-decoration:none
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  width: 100%;
+  float: left;
+  padding: 3% 4%;
+	background: #112e51;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #e1f3f8;
+  line-height: 100px;
+  height: auto;
+  text-align: center;
+}
+.button {
+  text-align: center;
+  margin-top: auto;
+  padding: 1.5%;
+  width: 100%;
+}
+
+.send-button {
+  font-weight: 700;
+  font-size: 15px;
+  width: 100px;
+  height: 45px;
+  background: #e31c3d;
+  cursor: pointer;
+  color: white;
+
+}
+
+.send-button:hover {
+  border: 1px;
+  solid: #981b1e
+}
+
+.col {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 3% 4%;
+}
+.transport select {
+  background-color:#e59393;
+  color: #112e51;
+  padding: 5%;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/*.transport {
   font-family: ‘Source Sans Pro’;
   font-weight: 700;
   font-size: 34px;
@@ -15,58 +94,8 @@
 	margin-top: 3%;
   margin-bottom: 2%;
   text-align: center;
-}*/
+}
 
-body {
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-  background-color: #aeb0b5;
-  font-family: 'Merriweather', serif;
-}
-.header {
-	background: #112e51;
-  font-family: ‘Source Sans Pro’;
-  font-weight: 700;
-  font-size: 52px;
-  color: #e1f3f8;
-  line-height: 100px;
-  height: 200px;
-  text-align: center;
-}
-.container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 20px;
-  background-color: #323a45;
-}
-@media (min-width: 1170px) {
-  .container {
-    max-width: 1170px;
-    padding: 0;
-  }
-}
-@media only screen and (min-width : 150px) and (max-width : 780px) {
-  .container {
-    max-width: 780px;
-    padding: 0;
-  }
-}
-.row {
-  margin-left: -5px;
-  margin-right: -5px;
-}
-.row:before,
-.row:after{
-  content: "";
-  display: table;
-}
-.row:after {
-  clear:both;
-}
 .col {
   display:flexbox;
    justify-content: space-between;
@@ -79,18 +108,4 @@ body {
   margin-right: -4px;
   *zoom: 1;
   *display: inline;
-}
-.transport{
-  padding: 5px;
-  text-align: center;
-  margin: 2px 0;
-  color: #ffffff;
-}
-.result-transport {
-  padding: 5px;
-  text-align: center;
-  margin: 2px 0;
-  color: #ffffff;
-  height: 50px;
-}
-
+}*/
