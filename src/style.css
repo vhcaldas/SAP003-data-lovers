@@ -1,5 +1,4 @@
 /*
-
 .legend {
   font-weight: 700;
   font-size: 20px;
@@ -50,13 +49,13 @@
   margin: 2px 0;
   color: #ffffff;
   height: 50px;
+
 }*/
 
 @media screen and (min-width: 320px){
   .header{
     font-size: 0.5em;
   }
-
 }
 
 * {
@@ -72,7 +71,6 @@
 
 body {
   background-color: #d6d7d9;
-
 }
 
 a {
@@ -165,5 +163,3 @@ img {
   *zoom: 1;
   *display: inline;
 }*/
-
-

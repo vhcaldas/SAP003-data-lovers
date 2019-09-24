@@ -1,8 +1,44 @@
-const receiveData = (event) => {
+let receiveData = (event) => {
   event.preventDefault();
-  const choosenTransp = document.getElementById("cTransp").value;
-  const year = document.getElementById("cYear").value;
-  return window.searchTheCategory(choosenTransp, year);
-}
-document.getElementById("send").addEventListener("click", receiveData);
+  const chooseTransp = document.getElementById("cTransp").value;
+  const Year = document.getElementById("cYear").value;
+  let tela = window.searchTheCategory(chooseTransp, Year);
+  document.getElementById("lista").innerHTML = tela;
+  
+  }
+  
+document.getElementById("enviar").addEventListener("click", receiveData);
+   
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 

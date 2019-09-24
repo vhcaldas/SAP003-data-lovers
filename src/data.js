@@ -1,14 +1,13 @@
 const data = INJURIES;
 
-const searchTheCategory = (choosenTransp, year) => {
+
+const searchTheCategory = (chooseTransp, Year) => {
   //  let arrResult = [];
     for (let i of data){
-      if (i.year === year){
-      //let result = (i[choosenTransp])
-      console.log(i[choosenTransp]);
+      if (i.Year === Year){
+      let resultado = (i[chooseTransp]);
+      return resultado; 
       }
-  }
-};
-
+    }
+}
 window.searchTheCategory = searchTheCategory;
-
