@@ -1,13 +1,14 @@
-const data = INJURIES;
-
+const array = INJURIES;
 
 const searchTheCategory = (chooseTransp, Year) => {
   //  let arrResult = [];
-    for (let i of data){
-      if (i.Year === Year){
+  for (let i of array) {
+    if (i.Year === Year) {
       let resultado = (i[chooseTransp]);
-      return resultado; 
-      }
+      return resultado;
     }
-}
-window.searchTheCategory = searchTheCategory;
+  }
+};
+window.data = {
+  searchTheCategory: searchTheCategory,
+};

@@ -4,41 +4,8 @@ let receiveData = (event) => {
   const Year = document.getElementById("cYear").value;
   let tela = window.searchTheCategory(chooseTransp, Year);
   document.getElementById("lista").innerHTML = tela;
-  
-  }
-  
+
+};
+
 document.getElementById("enviar").addEventListener("click", receiveData);
-   
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 
