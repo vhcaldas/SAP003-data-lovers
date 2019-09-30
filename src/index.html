@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name ="description" content="Site com informações sobre acidentes em transportes urbanos nos Estados Unidos entre 2010 a 2016.">
+    <meta name = "description" content="Site com informações sobre acidentes em transportes urbanos nos Estados Unidos entre 2010 a 2016.">
     <meta name ="keywords" content = "Estatística, EUA, Acidentes">
     <meta name ="robots" content = "index">
     <meta name ="author" content="Fabiana Soares e Vivian Caldas">
@@ -13,14 +13,32 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">Índice de Acidentes em Transportes Urbanos de 2010 a 2016 nos Estados Unidos</header>
-      <main class="grid">
-        <section class = "selection-boxes">
-            <form class= "col"></form>
-              <fieldset class= "transport">
-                  <legend class = "legend">Indice de Acidentes ocorrido nos ultimos anos</legend>
+    <div class="main">
+    <header>
+        <nav>
+            <a class="btmenu" href="#" target="_self">Home</a>
+            <a class="btmenu" href="#" target="_self">Sobre nos</a>
+            <a class="btmenu" href="#" target="_self">Contato</a>
+            <a class="btmenu" href="#" target="_self">Tipos de acidentes</a>
+        </nav>
+        <section class="banner">
+            <img class="imgbanner" src="Images/transito.jpeg"> 
+            <h2>Índice de Acidentes em Transportes Urbanos de 2010 a 2016 nos Estados Unidos</h2>
+        </section>             
+    </header>
+      <div class="container">
+      <section class = "selection-boxes">
+        <div class="item">
+          <article>
+              <h3>Interessado em quantos acidentes de carro acontecem por ano nos EUA?</h3>
+              <p>Você sabia que os acidentes de automóvel são a principal causa de morte entre cidadãos saudáveis ​​dos EUA? Motoristas que sofrem lesões fatais em um único ano são medidos em dezenas de milhares, e quase 2,5 milhões ficam gravemente feridos ou ficam desativados permanentemente. As estatísticas mostram que esses números têm aumentado nos últimos anos, apesar das melhorias nos recursos de segurança de automóveis. Os Estados Unidos têm mais de 220 milhões de motoristas licenciados e arriscam a vida toda vez que entram em um automóvel como motorista ou passageiro.</p>
+           </article>
+        </div>   
+        <form class= "col">
+                  <div class="item">
+                  <legend class = "legend">Confira as estatísticas por ano:</legend>
                   <label for="cTransp" class="cTransp">Transporte:</label>
-                  <select name="tTransp" id="cTransp"/>
+          <select name="tTransp" id="cTransp">
                     <optgroup label="Tipo de transporte">
                       <option value="Total_Injured_Persons_Passenger_Car_Occupants">Carro</option>
                       <option value="Total_Injured_Persons_Bus_Occupants">Onibus</option>
@@ -31,10 +49,10 @@
                       <option value="Total_Injured_Persons_Pedestrians">A pé</option>
                       <option value="Total_Injured_Persons_Pedalcyclists">Bicicleta</option>
                       <option value="Total_Injured_Persons_Motorcyclists">Motocicleta</option>
-                      </select>
+           </select>
                   <label for="cYear">Ano:</label>
-                    <select name="tYear" id="cYear"/>
-                      <optgroup label="cYear">
+                    <select name="tYear" id="cYear">
+                      <optgroup label="Ano">
                         <option value="2016-01-04">2016</option>
                         <option value="2015-01-04">2015</option>
                         <option value="2014-01-04">2014</option>
@@ -44,6 +62,20 @@
                         <option value="2010-01-04">2010</option>
                     </select>
                   <div class ="button">
+                    <button id="enviar" class="send-button">Calcular</button></div>
+                   <p id = "lista"></p>
+                   <div id = "resultado"></div>
+                </div>
+            </form>
+          </section>
+          </div>
+          <div class="footer">
+                <a class="destaques" href="#" tagert="_self" title="aviao4"><img src="Images/aviao4.png"></a>
+                <a class="destaques" href="#" tagert="_self" title="bicicleta"><img src="Images/bike2.png"></a>
+                <a class="destaques" href="#" tagert="_self" title="onibus"><img src="Images/bus3.png"></a>
+                <a class="destaques" href="#" tagert="_self" title="Carro"><img src="Images/car.png"></a>
+                <a class="destaques" href="#" tagert="_self" title="caminhao"><img src="Images/truck.png"></a>
+          <div>
                     <button id="enviar" class="send-button">Calcular</button>
                   </div>
                    <div id ="resultado"></div>
@@ -51,15 +83,12 @@
               </fieldset>
             </form>
           </section>
-              <fieldset>
-                <!--<output name ="result" id="result"></output></p>-->
-              </fieldset>
       </main>
     </div>
       <script src="data/injuries/injuries.js"></script>
       <script src="data.js"></script>
       <script src="main.js"></script>
-      <script src="test.js"></script>
     </form>
+  </div>
   </body>
 </html>
