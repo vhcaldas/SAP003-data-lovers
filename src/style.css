@@ -1,47 +1,47 @@
 @media all and (min-width:0px) and (max-width:2200px){
 
-body html {
-  margin: 0;
-  padding: 0;
-  font-family: 'Merriweather', serif;
-  font-size: 13px;
-  line-height: 1,4;
-  color:rgb(39, 37, 37);
-  background-color:black;
-}
 
-.main{
-  max-width:100%;
-	margin:0 auto;
-	overflow:hidden;
-  background:white;
+body,html {  
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 1,4;
+    color:rgb(39, 37, 37);
+    background-color:black; 
+    
 }
+.main{
+      max-width:100%;
+			margin:0 auto;
+			overflow:hidden;
+      background:white;
+} 
 
 header nav{
-  background-color:#253556;
-  display: flex;
+    background-color:#253556;
+    display: flex;
 }
-
 .btmenu{
-  text-decoration: none;
-  display: flex;
-  width: 420px;
-  height: 50px;
-  margin: 2px;
-  padding: 1px 5px 1px 5px;
-  color: #fff;
-  font-family: 'Merriweather', serif;
-  font-size: 1.1em;
-  cursor: pointer;
-  border: 10px;
-  text-transform: uppercase;
-  outline:none;
-  justify-content: center;
-  align-items: center;
-}
+    text-decoration: none;
+    display: flex;
+    width: 420px;
+    height: 50px;
+    margin: 2px;
+    padding: 1px 5px 1px 5px;
+    color: #fff;
+    font-family: Arial;
+    font-size: 1.1em;
+    cursor: pointer;
+    border: 10px;
+    text-transform: uppercase;  
+    outline:none;
+    justify-content: center;
+    align-items: center;
+} 
 .btmenu:hover{
-  background-color: gray;
-  color:#FFF;
+    background-color: gray;
+    color:#FFF;
 }
 .banner{
   padding:0;
@@ -51,8 +51,8 @@ header nav{
   align-items:center;
   background: rgb(46, 46, 46);
   color: lightsteelblue;
-}
 
+}  
 .imgbanner{
   width: 100%;
   object-fit: cover;
@@ -66,54 +66,77 @@ h2 {
   padding-left: 35px;
   padding-right:0px;
 }
-
-.selection-boxes {
-  width: 100%;
-  padding: 0;
+ .container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-flow: wrap;
-}
+  flex-direction: reverse;
+  background-color:white;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+ }
+ .item{
+   background-color: white;
+   color: black;
+   padding: 10px;
+   margin: 5px;
+   margin-right: 0px;
+     
+    }
 
-.container {
-  width: 100%;
-  height: 100%;
-  background-color: #323a45;
-  display: flex;
-  flex-direction: row;
-  justify-content: auto;
-  align-items: auto;
-}
-
-.item{
-  background-color: #0000ff;
-  color: #FFF;
-  padding: 100px;
-}
-
-.item{
-   height: 100px;
-   width: 200px;
-}
-
-.item legend{
-  font-family: 'Merriweather', serif;
+.item1{
+   width: 50%
+  }  
+.artigo p,h3{
+    margin: 10px;
+    padding: 2px;
+    text-align: justify;
+    font-size: 18px;
+  }
+.item2{
+   width:100%;
+   background: rgba(0,0,0,.7);
+   color: white;
+   padding: 20px;
+   font-size: 16px;
+   opacity: 30%;
+  }   
+.legend{
+  font-family: 'Franklin Gothic Medium', 'Bree Serif';
   background-color: rgb(8, 1, 102);
-  font-size: 15px;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
 }
-
-article{
-  float: right;
+.item2 > label {padding: 10px;}
+.item2 > select {
+  -webkit-appearance: none;  
+  -moz-appearance: none;   
+  appearance: none;
+  background: url(Images/ico-seta-appearance.gif) no-repeat #eeeeee; 
+  background-position: 218px center;
+  width: 250px;
+  height:30px; 
+  border:1px solid #ddd;
 }
+.send-button {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  background: #022f58;
+  cursor: pointer;
+  color: white;
+  opacity: 0.7;
+  border-radius: 2px;
+ }
+ .send-button:hover{
+   background: #323a45;
+ }
 
-article > p,h3{
-  margin: 1%;
-  padding: 0.5em;
-  text-align: justify;
-  font-size: 9px;
-}
-
+ 
 .footer{
   width:100%;
   background:lightsteelblue;
@@ -125,29 +148,15 @@ article > p,h3{
   padding: 0px;
   background:#000;
   }
-.destaques > img {
-  width:5%;
-  height: 10%;
-  padding: 10px;
-}
-
+  .destaques > img {
+    width:5%;
+    height: 10%;
+    padding: 10px;
+  
+  }
 .destaques:hover{
-  background: rgb(129, 95, 209);
+  background: rgb(129, 95, 209);  
+  
 }
 
-.send-button {
-  width: 100%;
-  padding: 40px;
-  margin-top: 10px;
-  outline: none;
-  border: none;
-  box-sizing: border-box;
-  background: #022f58;
-  cursor: pointer;
-  color: white;
-  opacity: 0.7;
-  border-radius: 5px;
- }
- .send-button:hover{
-   background: #323a45;
- }
+ 
