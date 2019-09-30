@@ -1,141 +1,196 @@
 @media all and (min-width:0px) and (max-width:2200px){
-  h2 {
-    margin-right: 80px;
-    text-align: justify;
-    padding-left: 35px;
-    padding-right:0px;
-  }
-  p{
+
+
+body,html {  
     margin: 0;
     padding: 0;
-    margin-right: 700px;
-    text-align: justify;
-    padding-left: 35px;
-    padding-right:40px;
-  }
-  h1 {
-    margin-right: 80px;
-    text-align: justify;
-    padding-left: 35px;
-    padding-right:0px;
-  }
-  
-  body {
-  background-color: #1155dd;
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  color: #fff;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  }
-  .header {
-    width: 700%;
-    float: center;
-    padding: 10% 4%;
-    font-weight: 100;
-    font-size: 2.1em;
-    color: #e1f3f8;
-    line-height:40px;
-    height:auto;
-    text-align:center;
-  }
-   
-    header nav{
-    background-color: #000;
-    display: flex;
-  }
-
-   .box{
-    position: absolute;
-    top: 76%;
-    left: 75%;
-    transform: translate(-50%,-50%);
-    width: 558px;
-    padding: 35px;
-    background: rgba(0,0,0,.7);
-    box-sizing: border-box;
-    border-radius: 9%;
-    display: fixed;
-  }
-  @media screen and (min-width:0px) and (max-width:2200px){
-    .box{
-      width:40%;
-    } 
-  }
-  @media screen and (min-width:0px) and (max-width:2200px){
-    .box{
-      width:30%;
-    } 
-  }
-
-  .box legend{
-    top: 78%;
-    left: 7%; 
-    font-family: 'Franklin Gothic Medium', 'Bree Serif';
-    color: #fff;
-    background-color: rgb(8, 1, 102);
-    text-align: center; 
-   }
-
-   .selection-boxes {
-    width: 100%;
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 1,4;
+    color:rgb(39, 37, 37);
+    background-color:black; 
     
-    padding: 0 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-flow: wrap;
-   }
-   } 
+}
+.main{
+      max-width:100%;
+			margin:0 auto;
+			overflow:hidden;
+      background:white;
+} 
 
-  .legend {
-   font-weight: 700;
-   font-size: 20px;
-   line-height: 50px;
-  }
-  .btmenu{
+header nav{
+    background-color:#253556;
+    display: flex;
+}
+.btmenu{
     text-decoration: none;
     display: flex;
     width: 420px;
-    height: 30px;
+    height: 50px;
     margin: 2px;
     padding: 1px 5px 1px 5px;
-    background-color: #000;
-    border-radius: 30px;
     color: #fff;
     font-family: Arial;
-    font-size: 10px;
+    font-size: 1.1em;
     cursor: pointer;
     border: 10px;
-    text-transform: uppercase;
+    text-transform: uppercase;  
     outline:none;
     justify-content: center;
     align-items: center;
-  }
-   
-  .btmenu:hover{
-    background-color: rgb(129, 95, 209);
+} 
+.btmenu:hover{
+    background-color: gray;
     color:#FFF;
-  }
+}
+.banner{
+  padding:0;
+  margin: 0;
+  overflow:hidden;
+  justify-content:center;
+  align-items:center;
+  background: rgb(46, 46, 46);
+  color: lightsteelblue;
+
+}  
+.imgbanner{
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 130px;
+}
+
+h2 {
+  margin-right: 80px;
+  text-align: center;
+  padding-left: 35px;
+  padding-right:0px;
+}
+
+.selection-boxes {
+  width: 100%;
+  padding: 0;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+ }
+ .container {
+  width: 100%;
+  height: 100%;
+  background-color: #323a45;
+  display: flex;
+  flex-direction: row;
+  justify-content: auto;
+  align-items: auto;
+ }
+ .item{
+   background-color: #0000ff;
+   color: #FFF;
+   padding: 100px;
+   
+
+ }
+ .item{
+   height: 100px;
+   width: 200px;
   
-  .destaques{
-    margin: 70px;
-    padding: 0px;
-    background:#000
-    }
-  .destaques:hover{
-    background: rgb(129, 95, 209);
-    
+}
+.item legend{
+  font-family: 'Franklin Gothic Medium', 'Bree Serif';
+  background-color: rgb(8, 1, 102);
+  font-size: 15px;
+}
+
+ /*.box{
+  float:right;
+  padding: 5%;
+  top:20%;
+  transform: translate(-50%,-50%);
+  background: rgba(0,0,0,.7);
+  box-sizing: border-box;
+  border-radius: 9%;
+  color: white;
+}
+
+ .box legend{
+  font-family: 'Franklin Gothic Medium', 'Bree Serif';
+  background-color: rgb(8, 1, 102);
+  font-size: 20px;
+ }*/
+ article{
+   float: right;
+ }
+ article > p,h3{
+  margin: 1%;
+  padding: 0.5em;
+  text-align: justify;
+  font-size: 9px;
+}
+
+.footer{
+  width:100%;
+  background:lightsteelblue;
+  text-align:center;
+}
+
+.destaques{
+  margin: 70px;
+  padding: 0px;
+  background:#000;
   }
-  .banner{
-    padding:0px;
-    overflow:hidden;
-    justify-content:center;
-    align-items:center;
-  } 
+  .destaques > img {
+    width:5%;
+    height: 10%;
+    padding: 10px;
+  
+  }
+.destaques:hover{
+  background: rgb(129, 95, 209);  
+  
+}
+.send-button {
+  width: 100%;
+  padding: 40px;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  background: #022f58;
+  cursor: pointer;
+  color: white;
+  opacity: 0.7;
+  border-radius: 5px;
+ }
+ .send-button:hover{
+   background: #323a45;
+ }
+
+ 
+ /* 
+    h1 {
+    margin-right: 80px;
+    text-align: justify;
+    padding-left: 35px;
+    padding-right:0px;
+  }
+
+  }*/ 
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
  
     /*.container {
       width: 100%;
@@ -149,7 +204,7 @@
       flex-flow: wrap;
      }*/
     
-  }
+  /*
   a {
     text-decoration: #FFF
    }

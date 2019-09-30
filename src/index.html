@@ -13,23 +13,29 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="main">
     <header>
-      
-      <section class="banner">
-          <img src="Images/carros.jpg" width="100%" height="150"/>
-        </section>
-        <h1>Índice de Acidentes em Transportes Urbanos de 2010 a 2016 nos Estados Unidos</h1>
         <nav>
             <a class="btmenu" href="#" target="_self">Home</a>
             <a class="btmenu" href="#" target="_self">Sobre nos</a>
             <a class="btmenu" href="#" target="_self">Contato</a>
             <a class="btmenu" href="#" target="_self">Tipos de acidentes</a>
-        </nav>      
+        </nav>
+        <section class="banner">
+            <img class="imgbanner" src="Images/transito.jpeg"> 
+            <h2>Índice de Acidentes em Transportes Urbanos de 2010 a 2016 nos Estados Unidos</h2>
+        </section>             
     </header>
-
+      <div class="container">
       <section class = "selection-boxes">
+        <div class="item">
+          <article>
+              <h3>Interessado em quantos acidentes de carro acontecem por ano nos EUA?</h3>
+              <p>Você sabia que os acidentes de automóvel são a principal causa de morte entre cidadãos saudáveis ​​dos EUA? Motoristas que sofrem lesões fatais em um único ano são medidos em dezenas de milhares, e quase 2,5 milhões ficam gravemente feridos ou ficam desativados permanentemente. As estatísticas mostram que esses números têm aumentado nos últimos anos, apesar das melhorias nos recursos de segurança de automóveis. Os Estados Unidos têm mais de 220 milhões de motoristas licenciados e arriscam a vida toda vez que entram em um automóvel como motorista ou passageiro.</p>
+           </article>
+        </div>   
         <form class= "col">
-                  <div class="box">
+                  <div class="item">
                   <legend class = "legend">Confira as estatísticas por ano:</legend>
                   <label for="cTransp" class="cTransp">Transporte:</label>
           <select name="tTransp" id="cTransp">
@@ -60,25 +66,23 @@
                    <p id = "lista"></p>
                    <div id = "resultado"></div>
                 </div>
-                <article>
-                    <h2>Interessado em quantos acidentes de carro acontecem por ano nos EUA?</h2>
-                      <p>Você sabia que os acidentes de automóvel são a principal causa de morte entre cidadãos saudáveis ​​dos EUA? Motoristas que sofrem lesões fatais em um único ano são medidos em dezenas de milhares, e quase 2,5 milhões ficam gravemente feridos ou ficam desativados permanentemente. As estatísticas mostram que esses números têm aumentado nos últimos anos, apesar das melhorias nos recursos de segurança de automóveis. Os Estados Unidos têm mais de 220 milhões de motoristas licenciados e arriscam a vida toda vez que entram em um automóvel como motorista ou passageiro.</p>
-                  </article>
             </form>
           </section>
+          </div>
 
-          <section id="destaques">
-                <a class="destaques" href="#" tagert="_self" title="aviao4"><img src="Images/aviao4.png" width="9%" height="150"></a>
-                <a class="destaques" href="#" tagert="_self" title="bicicleta"><img src="Images/bike2.png" width="9%" height="150"></a>
-                <a class="destaques" href="#" tagert="_self" title="onibus"><img src="Images/bus3.png" width="9%" height="150"></a>
-                <a class="destaques" href="#" tagert="_self" title="Carro"><img src="Images/car.png" width="9%" height="150"></a>
-                <a class="destaques" href="#" tagert="_self" title="caminhao"><img src="Images/truck.png" width="9%" height="150"></a>
-       </section>
+          <div class="footer">
+                <a class="destaques" href="#" tagert="_self" title="aviao4"><img src="Images/aviao4.png"></a>
+                <a class="destaques" href="#" tagert="_self" title="bicicleta"><img src="Images/bike2.png"></a>
+                <a class="destaques" href="#" tagert="_self" title="onibus"><img src="Images/bus3.png"></a>
+                <a class="destaques" href="#" tagert="_self" title="Carro"><img src="Images/car.png"></a>
+                <a class="destaques" href="#" tagert="_self" title="caminhao"><img src="Images/truck.png"></a>
+          <div>
 
     
       <script src="data/injuries/injuries.js"></script>
       <script src="data.js"></script>
       <script src="main.js"></script>
     </form>
+  </div>
   </body>
 </html>
