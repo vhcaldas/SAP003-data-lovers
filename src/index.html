@@ -26,79 +26,83 @@
         </section>
     </header>
       <div class="container">
-        <div class="item item1">
-          <article>
-            <h3>Interessado em quantos acidentes de carro acontecem por ano nos EUA?</h3>
-            <p>Você sabia que os acidentes de automóvel são a principal causa de morte entre cidadãos saudáveis ​​dos EUA? Motoristas que sofrem lesões fatais em um único ano são medidos em dezenas de milhares, e quase 2,5 milhões ficam gravemente feridos ou ficam desativados permanentemente. As estatísticas mostram que esses números têm aumentado nos últimos anos, apesar das melhorias nos recursos de segurança de automóveis. Os Estados Unidos têm mais de 220 milhões de motoristas licenciados e arriscam a vida toda vez que entram em um automóvel como motorista ou passageiro.</p>
-          </article>
-        </div>
-        <form class= "col">
+          <div class="item item1">
+              <article class="artigo">
+                  <h3>Interessado em quantos acidentes de carro acontecem por ano nos EUA?</h3>
+                  <p>Você sabia que os acidentes de automóvel são a principal causa de morte entre cidadãos saudáveis ​​dos EUA? Motoristas que sofrem lesões fatais em um único ano são medidos em dezenas de milhares, e quase 2,5 milhões ficam gravemente feridos ou ficam desativados permanentemente. As estatísticas mostram que esses números têm aumentado nos últimos anos, apesar das melhorias nos recursos de segurança de automóveis. Os Estados Unidos têm mais de 220 milhões de motoristas licenciados e arriscam a vida toda vez que entram em um automóvel como motorista ou passageiro.</p>
+               </article>
+          </div>   
           <div class="item item2">
-            <legend class = "legend">Confira as estatísticas por ano:</legend>
-            <label for="cTransp" class="cTransp">Transporte:</label>
-            <select name="tTransp" id="cTransp">
-              <optgroup label="Tipo de transporte">
-              <option value="Total_Injured_Persons_Passenger_Car_Occupants">Carro</option>
-              <option value="Total_Injured_Persons_Bus_Occupants">Onibus</option>
-              <option value="Total_Injured_Persons_Truck_Occupants_Large">Caminhao</option>
-              <option value="Total_Injured_Persons_Train_Accidents_Rail_Roads">Trem</option>
-              <option value="Total_Injured_Persons_Recreational_Boating">Barco</option>
-              <option value="Total_Injured_Persons_Air">Aviao</option>
-              <option value="Total_Injured_Persons_Pedestrians">A pé</option>
-              <option value="Total_Injured_Persons_Pedalcyclists">Bicicleta</option>
-              <option value="Total_Injured_Persons_Motorcyclists">Motocicleta</option>
-           </select>
-              <label for="cYear">Ano:</label>
-              <select name="tYear" id="cYear">
-                <optgroup label="Ano">
-                <option value="2016-01-04">2016</option>
-                <option value="2015-01-04">2015</option>
-                <option value="2014-01-04">2014</option>
-                <option value="2013-01-04">2013</option>
-                <option value="2012-01-04">2012</option>
-                <option value="2011-01-04">2011</option>
-                <option value="2010-01-04">2010</option>
+              <form class= "col">
+                  <legend class = "legend">Confira as estatísticas por ano:</legend>
+                  <label for="cTransp" class="cTransp">Transporte:</label>
+                  <select name="tTransp" id="cTransp">
+                      <optgroup label="Tipo de transporte">
+                        <option value="Total_Injured_Persons_Passenger_Car_Occupants">Carro</option>
+                        <option value="Total_Injured_Persons_Bus_Occupants">Onibus</option>
+                        <option value="Total_Injured_Persons_Truck_Occupants_Large">Caminhao</option>
+                        <option value="Total_Injured_Persons_Train_Accidents_Rail_Roads">Trem</option>
+                        <option value="Total_Injured_Persons_Recreational_Boating">Barco</option>
+                        <option value="Total_Injured_Persons_Air">Aviao</option>
+                        <option value="Total_Injured_Persons_Pedestrians">A pé</option>
+                        <option value="Total_Injured_Persons_Pedalcyclists">Bicicleta</option>
+                        <option value="Total_Injured_Persons_Motorcyclists">Motocicleta</option>
+                   </select>
+                    <br />
+                  <label for="cYear">Ano:</label>
+                  <select name="tYear" id="cYear">
+                      <optgroup label="Ano">
+                        <option value="2016-01-04">2016</option>
+                        <option value="2015-01-04">2015</option>
+                        <option value="2014-01-04">2014</option>
+                        <option value="2013-01-04">2013</option>
+                        <option value="2012-01-04">2012</option>
+                        <option value="2011-01-04">2011</option>
+                        <option value="2010-01-04">2010</option>
+                  </select>
+                  <div class ="button">
+                        <button id="enviar" class="send-button">Calcular</button></div>
+                        <p id = "lista"></p>
+                  <div id = "resultado"></div>
+              </form>
+          </div>
+          <div class="item item3">
+              <legend class = "legend">Comparação de Resultado por Ano:</legend>
+              <label>Ano:</label>
+              <select name = "year-option" id = "year-option" class = "year-option">
+                <optgroup label="year-option">
+                  <option value="2016-01-04">2016</option>
+                  <option value="2015-01-04">2015</option>
+                  <option value="2014-01-04">2014</option>
+                  <option value="2013-01-04">2013</option>
+                  <option value="2012-01-04">2012</option>
+                  <option value="2011-01-04">2011</option>
+                  <option value="2010-01-04">2010</option>
+               </select>
+               <br />
+               <label>Ordem: </label>
+              <select name="ordering" id="ordering">
+                  <option value="increasing" id="increasing">Ordem Decrescente</option>
+                  <option value="decreasing" id="decreasing">Ordem Crescente</option>
               </select>
-          <div class ="button">
-          <button id="enviar" class="send-button">Calcular</button>
+              <div class ="button">
+                <button id="enviar-2" class="send-button">Enviar</button>
+              </div>
+              <div id="result-2"></div>
+              <div id="result-1"></div>
           </div>
-          <div id="result-1"></div>
-          <div class="footer">
-            <a class="destaques" href="#" tagert="_self" title="aviao4"><img src="Images/aviao4.png"></a>
-            <a class="destaques" href="#" tagert="_self" title="bicicleta"><img src="Images/bike2.png"></a>
-            <a class="destaques" href="#" tagert="_self" title="onibus"><img src="Images/bus3.png"></a>
-            <a class="destaques" href="#" tagert="_self" title="Carro"><img src="Images/car.png"></a>
-            <a class="destaques" href="#" tagert="_self" title="caminhao"><img src="Images/truck.png"></a>
-          </div>
-        </form>
-        <div>
-          <section>
-            <h2>Comparação de Resultado por Ano:</h2>
-            <select name = "year-option" id = "year-option" class = "year-option">
-              <optgroup label="year-option">
-                <option value="2016-01-04">2016</option>
-                <option value="2015-01-04">2015</option>
-                <option value="2014-01-04">2014</option>
-                <option value="2013-01-04">2013</option>
-                <option value="2012-01-04">2012</option>
-                <option value="2011-01-04">2011</option>
-                <option value="2010-01-04">2010</option>
-             </select>
-            <select name="ordering" id="ordering" class="ordering">
-              <option value="increasing" id="increasing">Ordem Decrescente</option>
-              <option value="decreasing" id="decreasing">Ordem Crescente</option>
-            </select>
-            <div class ="button">
-              <button id="enviar-2" class="send-button">Enviar</button>
-            </div>
-          </section>
-        </div>
-        <div id="result-2"></div>
-      </main>
+    </div>
+    <div class="footer">
+        <a class="destaques" href="#" tagert="_self" title="aviao4"><img src="Images/aviao4.png"></a>
+        <a class="destaques" href="#" tagert="_self" title="bicicleta"><img src="Images/bike2.png"></a>
+        <a class="destaques" href="#" tagert="_self" title="onibus"><img src="Images/bus3.png"></a>
+        <a class="destaques" href="#" tagert="_self" title="Carro"><img src="Images/car.png"></a>
+        <a class="destaques" href="#" tagert="_self" title="caminhao"><img src="Images/truck.png"></a>
+      </div>
       <script src="data/injuries/injuries.js"></script>
       <script src="data.js"></script>
       <script src="main.js"></script>
-    </form>
-  </div>
+  
+    </div>
   </body>
 </html>
