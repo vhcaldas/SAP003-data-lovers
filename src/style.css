@@ -1,6 +1,4 @@
 @media all and (min-width:0px) and (max-width:2200px){
-
-
 body,html {  
     margin: 0;
     padding: 0;
@@ -83,7 +81,7 @@ h2 {
     }
 
 .item1{
-   width: 50%
+   width: 100%
   }  
 .artigo p,h3{
     margin: 10px;
@@ -92,12 +90,11 @@ h2 {
     font-size: 18px;
   }
 .item2{
-   width:100%;
+   width:45%;
    background: rgba(0,0,0,.7);
    color: white;
    padding: 20px;
    font-size: 16px;
-   opacity: 30%;
   }   
 .legend{
   font-family: 'Franklin Gothic Medium', 'Bree Serif';
@@ -107,8 +104,9 @@ h2 {
   padding: 5px;
   margin: 5px;
 }
-.item2 > label {padding: 10px;}
-.item2 > select {
+label {padding: 10px;}
+
+select {
   -webkit-appearance: none;  
   -moz-appearance: none;   
   appearance: none;
@@ -117,6 +115,13 @@ h2 {
   width: 250px;
   height:30px; 
   border:1px solid #ddd;
+}
+.item3{
+  width:45%;
+  background: rgba(0,0,0,.7);
+  color: white;
+  padding: 20px;
+  font-size: 16px;
 }
 .send-button {
   width: 100%;
@@ -139,7 +144,7 @@ h2 {
  
 .footer{
   width:100%;
-  background:lightsteelblue;
+  background:#253556;
   text-align:center;
 }
 
@@ -158,5 +163,3 @@ h2 {
   background: rgb(129, 95, 209);  
   
 }
-
- 
