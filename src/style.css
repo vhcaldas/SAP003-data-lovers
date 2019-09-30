@@ -1,48 +1,47 @@
-
 @media all and (min-width:0px) and (max-width:2200px){
 
-
-body,html {  
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    font-size: 13px;
-    line-height: 1,4;
-    color:rgb(39, 37, 37);
-    background-color:black; 
-    
+body html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+  line-height: 1,4;
+  color:rgb(39, 37, 37);
+  background-color:black;
 }
+
 .main{
-      max-width:100%;
-			margin:0 auto;
-			overflow:hidden;
-      background:white;
-} 
+  max-width:100%;
+	margin:0 auto;
+	overflow:hidden;
+  background:white;
+}
 
 header nav{
-    background-color:#253556;
-    display: flex;
+  background-color:#253556;
+  display: flex;
 }
+
 .btmenu{
-    text-decoration: none;
-    display: flex;
-    width: 420px;
-    height: 50px;
-    margin: 2px;
-    padding: 1px 5px 1px 5px;
-    color: #fff;
-    font-family: Arial;
-    font-size: 1.1em;
-    cursor: pointer;
-    border: 10px;
-    text-transform: uppercase;  
-    outline:none;
-    justify-content: center;
-    align-items: center;
-} 
+  text-decoration: none;
+  display: flex;
+  width: 420px;
+  height: 50px;
+  margin: 2px;
+  padding: 1px 5px 1px 5px;
+  color: #fff;
+  font-family: 'Merriweather', serif;
+  font-size: 1.1em;
+  cursor: pointer;
+  border: 10px;
+  text-transform: uppercase;
+  outline:none;
+  justify-content: center;
+  align-items: center;
+}
 .btmenu:hover{
-    background-color: gray;
-    color:#FFF;
+  background-color: gray;
+  color:#FFF;
 }
 .banner{
   padding:0;
@@ -52,8 +51,8 @@ header nav{
   align-items:center;
   background: rgb(46, 46, 46);
   color: lightsteelblue;
+}
 
-}  
 .imgbanner{
   width: 100%;
   object-fit: cover;
@@ -71,12 +70,13 @@ h2 {
 .selection-boxes {
   width: 100%;
   padding: 0;
-  display: flex; 
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-flow: wrap;
- }
- .container {
+}
+
+.container {
   width: 100%;
   height: 100%;
   background-color: #323a45;
@@ -84,45 +84,30 @@ h2 {
   flex-direction: row;
   justify-content: auto;
   align-items: auto;
- }
- .item{
-   background-color: #0000ff;
-   color: #FFF;
-   padding: 100px;
-   
+}
 
- }
- .item{
+.item{
+  background-color: #0000ff;
+  color: #FFF;
+  padding: 100px;
+}
+
+.item{
    height: 100px;
    width: 200px;
-  
 }
+
 .item legend{
-  font-family: 'Franklin Gothic Medium', 'Bree Serif';
+  font-family: 'Merriweather', serif;
   background-color: rgb(8, 1, 102);
   font-size: 15px;
 }
 
- /*.box{
-  float:right;
-  padding: 5%;
-  top:20%;
-  transform: translate(-50%,-50%);
-  background: rgba(0,0,0,.7);
-  box-sizing: border-box;
-  border-radius: 9%;
-  color: white;
+article{
+  float: right;
 }
 
- .box legend{
-  font-family: 'Franklin Gothic Medium', 'Bree Serif';
-  background-color: rgb(8, 1, 102);
-  font-size: 20px;
- }*/
- article{
-   float: right;
- }
- article > p,h3{
+article > p,h3{
   margin: 1%;
   padding: 0.5em;
   text-align: justify;
@@ -140,16 +125,16 @@ h2 {
   padding: 0px;
   background:#000;
   }
-  .destaques > img {
-    width:5%;
-    height: 10%;
-    padding: 10px;
-  
-  }
-.destaques:hover{
-  background: rgb(129, 95, 209);  
-  
+.destaques > img {
+  width:5%;
+  height: 10%;
+  padding: 10px;
 }
+
+.destaques:hover{
+  background: rgb(129, 95, 209);
+}
+
 .send-button {
   width: 100%;
   padding: 40px;
@@ -166,201 +151,3 @@ h2 {
  .send-button:hover{
    background: #323a45;
  }
-
- 
- /* 
-    h1 {
-    margin-right: 80px;
-    text-align: justify;
-    padding-left: 35px;
-    padding-right:0px;
-  }
-
-  }*/ 
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-    /*.container {
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      padding: 0 20px;
-      background-color: #323a45;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      flex-flow: wrap;
-     }*/
-    
-  /*
-  a {
-    text-decoration: #FFF
-   }
-    
-    
-   img {
-    max-width: 100%;
-   }
-   .button {
-    text-align: center;
-    margin-top: unset;
-    padding: 1.5%;
-    width: 100%;
-   }
-   
-}
-
-
-
-/*@media screen and (max-device-width:450px) and (orientation:portrait){
-  header{
-    padding-left: 3%;
-    padding-right: 3%;
-  }
-}
- 
-
-
-/*@media (min-width: 1170px) {
- .container {
-   max-width: 1170px;
-   padding: 0;
- }
-}
-@media only screen and (min-width : 150px) and (max-width : 780px) {
- .container {
-   max-width: 780px;
-   padding: 0;
- }
-}
-.row {
- margin-left: -5px;
- margin-right: -5px;
-}
-.row:before,
-.row:after{
- content: "";
- display: table;
-}
-.row:after {
- clear:both;
-}
- 
-.transport{
- padding: 5px;
- text-align: center;
- margin: 2px 0;
- color: #ffffff;
-}
-.result-transport {
- padding: 5px;
- text-align: center;
- margin: 2px 0;
- color: #ffffff;
- height: 50px;
- 
-}
- 
-voltar @media screen and (min-width: 320px){
- .header{
-   font-size: 0.5em;
- }
-}
-{
- margin: 0;
- padding: 0;
- font-size: 100%;
- border: none;
- outline: none;
- font-weight: 300;
- box-sizing: border-box;
- font-family: 'Merriweather', serif;
-}*/
- 
-
- 
-/*
-a {
- text-decoration:none
-}
- 
-ul {
- list-style: none;
-}
- 
-img {
- max-width: 100%;
-}
-.button {
- text-align: center;
- margin-top: auto;
- padding: 1.5%;
- width: 100%;
-}
- 
-.send-button {
- font-weight: 700;
- font-size: 15px;
- width: 100px;
- height: 45px;
- background: #e31c3d;
- cursor: pointer;
- color: white;
- 
-}
- 
-.send-button:hover {
- border: 1px;
- solid: #981b1e
-}
- 
-.col {
- width: 100%;
- float: left;
- text-align: center;
- padding: 3% 4%;
-}
-.transport select {
- background-color:#e59393;
- color: #112e51;
- padding: 5%;
- border-radius: 5px;
- width: 100%;
-}
- 
-/*.transport {
- font-family: ‘Source Sans Pro’;
- font-weight: 700;
- font-size: 34px;
- line-height: 1.3em/44px;
- text-align: center
-}
- 
-
- 
-.col {
- display:flexbox;
-  justify-content: space-between;
- align-items: center;
- vertical-align: top;
- min-height: 1px;
- padding-left: 5px;
- padding-right: 5px;
- width: 100%;
- margin-right: -4px;
- *zoom: 1;
- *display: inline;
-}*/

@@ -41,4 +41,3 @@ window.data = {
   finding: finding,
   sorting: sorting
 };
-
